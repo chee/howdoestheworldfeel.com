@@ -41,7 +41,7 @@
 				'angel',
 				'light emitting diodes',
 				'LEDs',
-				'new housemates'
+				'new housemates', 'magestic sun',
 				'sun', 'love', 'light', 'thanks', 'christ', 'ecmascript', 'wish', 'have', 'yay'
 			],
 			'take': [
