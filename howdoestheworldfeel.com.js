@@ -54,14 +54,14 @@
 		Object.keys( scanners ).forEach(function ( type ) {
 			scanners[ type ].give.forEach(function ( term ) {
 				if ( !!~tweet.indexOf( term ) ) {
-					because = type + ' + ' + term;
+					because = term;
 					feel[ type ]++;
 					counter++;
 				}
 			});
 			scanners[ type ].take.forEach(function ( term ) {
 				if ( !!~tweet.indexOf( term ) ) {
-					because = type + ' - ' + term;
+					because = term;
 					feel[ type ]--;
 					counter++;
 				}
