@@ -10,22 +10,39 @@
 
 	var scanners = {
 		hue: {
-			'give':
-				'rainbow|rough|ring|wing|wash|trust|live|lust|coldhead'.split( '|' ),
-			'take':
-				'blood|wizard|twist|flap|crash|whizz|palace|parse|angus'.split( '|' )
+			'give': [
+				'rainbow', 'rough', 'ring', 'wing', 'wash',
+				'trust', 'live', 'lust', 'coldhead', 'red', 'orange', 'yellow', 'green'
+			],
+			'take': [
+				'blood', 'wizard', 'twist', 'flap', 'crash',
+				'whizz', 'palace', 'parse', 'angus', 'blue', 'indigo', 'violet',
+				'hello', 'cyan', 'angus'
+			]
 		},
 		saturation: {
-			'give':
-				'hemingway|love|color|colour|smile|i love you|i love|chee|javascript|hooray|lol'.split( '|' ),
-			'take':
-				'bieber|grey|dull|work|cunt|fuck|shit'.split( '|' )
+			'give': [
+				'hemingway',
+				'love', 'color', 'colour', 'smile',
+				'i love you', 'i love', 'chee',
+				'javascript', 'hooray', 'lol',
+				'abigail', 'ernest hemingway', 'oscar wilde'
+			],
+			'take': [
+				'bieber', 'justin bieber',
+				'grey', 'gray',
+				'dull', 'work', 'cunt', 'fuck', 'shit', 'self-conscious',
+				'photo or it don\'t happen',
+				'pix or it didn\'t happen'
+			]
 		},
 		luminance: {
-			'give':
-				'angel|love|light|thanks|christ|ecmascript|wish|have|yay'.split( '|' ),
-			'take':
-				'devil|hate|dark|nothing|oh my god|n\'t'.split( '|' )
+			'give': [
+				'angel', 'love', 'light', 'thanks', 'christ', 'ecmascript', 'wish', 'have', 'yay'
+			],
+			'take': [
+				'devil', 'hate', 'dark', 'nothing', 'oh my god', 'n\'t', 'death', 'dead'
+			]
 		}
 	};
 
