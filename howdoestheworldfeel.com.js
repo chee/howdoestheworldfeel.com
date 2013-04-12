@@ -38,7 +38,11 @@
 		},
 		luminance: {
 			'give': [
-				'angel', 'love', 'light', 'thanks', 'christ', 'ecmascript', 'wish', 'have', 'yay'
+				'angel',
+				'light emitting diodes',
+				'LEDs',
+				'new housemates'
+				'sun', 'love', 'light', 'thanks', 'christ', 'ecmascript', 'wish', 'have', 'yay'
 			],
 			'take': [
 				'devil', 'hate', 'dark', 'nothing', 'oh my god', 'n\'t', 'death', 'dead'
@@ -145,7 +149,7 @@
 
 	tweeter.on( 'tweet', function ( tweet ) {
 		scan( tweet.text.toLowerCase() );
-		if ( counter > 100 ) {
+		if ( counter > 10 ) {
 			send();
 			counter = 0;
 		}
